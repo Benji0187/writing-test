@@ -1,4 +1,4 @@
-# Create and manage a Checkout Session
+# Create a Checkout Session
 
 This topic explains what Checkout Sessions are and describes the tasks you need to complete to create one.
 
@@ -22,7 +22,6 @@ The steps are:
 
 1. [Gather the information needed to create a Checkout Session](#gather-information-for-payment-creation).
 1. [Start the Checkout Session](#start-the-checkout-session). 
-1. [Monitor your Checkout Session](#monitor-a-checkout-session).
 
 
 ### Gather information for payment creation
@@ -58,6 +57,6 @@ You start a Checkout Session using the system's user interface (UI) by following
 1. Select the **Create Session** button.
 1. *Result*: The system starts the Checkout Session and prompts the payer to confirm their payment details.
 
-### Monitor a Checkout Session 
+## Monitor a Checkout Session 
 
 You can monitor and manage all the payments you've created through your Payment Dashboard.
