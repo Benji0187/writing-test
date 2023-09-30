@@ -2,9 +2,6 @@
 
 This topic outlines the process for making payments through a Checkout Session. To start a payment, you must create a Checkout Session, which you can open through various methods. This topic details the steps for creating a Checkout Session, including recipient selection, payer information, and order numbers.
 
-Initiating a Checkout Session 
-
-![Alt text](images/PaymentWorkflow.png)
 ## Create a Checkout Session
 
 This section describes the steps you must complete the create a Checkout Session. 
