@@ -1,6 +1,18 @@
 # Create and manage a Checkout Session
 
-This topic outlines the process for making payments through a Checkout Session. To start a payment, you must create a Checkout Session, which you can open through various methods. This topic details the steps for creating a Checkout Session, including recipient selection, payer information, and order numbers.
+This topic explains what Checkout Sessions are and describes the tasks you need to complete to create one.
+
+## Understand Checkout Sessions
+
+### What is a Checkout Session?
+To start a payment, you must create a Checkout Session, which you can open through various methods. 
+
+### What happens when I start a Checkout Session?
+Starting a Checkout Session initiates the payment session, and invites the payer to review and confirm their payer information via a sent link. The payer can make changes to their payer information if necessary.
+
+### What happens when the payer confirms their payment details?
+
+When the payer confirms their payment details you can create the payment and transfer the funds from the payer to Flywire.
 
 ## Create a Checkout Session
 
@@ -10,6 +22,7 @@ The steps are:
 
 1. [Gather the information needed to create a Checkout Session](#gather-information-for-payment-creation).
 1. [Start the Checkout Session](#start-the-checkout-session). 
+1. [Monitor your Checkout Session](#monitor-a-checkout-session).
 
 
 ### Gather information for payment creation
@@ -37,16 +50,7 @@ You can optionally include payer information. If payer information has been prov
 
 ### Start the Checkout Session
 
-#### What happens when I start a Checkout Session?
-Starting a Checkout Session initiates the payment session, and invites the payer to review their payer information via a sent link. The payer can make changes to their payer information if necessary.
-
-Starting a Checkout Session initiates the payment session, and invites the payer to review their payer information via a sent link. The payer can make changes if necessary.
-
-#### What happens when the payer confirms their payment details?
-
-When the payer confirms their payment details you can create the payment and transfer the funds from the payer to Flywire.
-#### How do I start a Checkout Session?
-You create a Checkout Session using the system's user interface (UI) by following these steps:
+You start a Checkout Session using the system's user interface (UI) by following these steps:
 
 1. Enter the recipient's recipient identifier.
 1. Enter the order's order identifier.
@@ -54,12 +58,6 @@ You create a Checkout Session using the system's user interface (UI) by followin
 1. Select the **Create Session** button.
 1. *Result*: The system starts the Checkout Session and prompts the payer to confirm their payment details.
 
-
-## Order numbers and refund identifiers
-
-- Order numbers are unique identifiers for each order and can be retrieved by searching for available orders in the system. The compatibility of order numbers depends on the portal's country.
-- Refund IDs are unique to each payment and are only generated after a refund is initiated.
-
-## Payment dashboard
+### Monitor a Checkout Session 
 
 You can monitor and manage all the payments you've created through your Payment Dashboard.
