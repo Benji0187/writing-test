@@ -9,17 +9,15 @@ Before initiating a payment, you must create a Checkout Session. A Checkout Sess
 
 ### What happens when I start a Checkout Session?
 
-Starting a Checkout Session causes the system to generate a link and share it with the payer. The system invites the payer to review and confirm their payer information. The payer can make changes to their payer information if necessary.
+Starting a Checkout Session causes the system to generate a link and share it with the payer. The system invites the payer visit the link to review and confirm their payer information. The payer can make changes to their payer information if necessary.
 
 ### What happens when the payer confirms their payment details?
 
-When the payer confirms their payment details, you can proceed to create the payment. The payer will be charged, and the funds will be transferred from them to Flywire.
+When the payer confirms their payment details, you can proceed to create the payment. Creating a payment allows you to charge the payer and transfer funds from their account to Flywire.
 
 ## Create a Checkout Session
 
 This section describes the steps you must complete the create a Checkout Session.
-
-The steps are:
 
 1. [Gather the information needed to create a Checkout Session](#gather-information-for-payment-creation).
 1. [Start the Checkout Session](#start-the-checkout-session). 
@@ -42,7 +40,7 @@ The recipient identifier that you provide when creating a Checkout Session defin
 
 #### Order number
 
-Order numbers are unique to each order and serve as identifiers. You can retrieve order numbers by querying available orders in the system. You must provide the order number when you create the Checkout Session.
+Order numbers are unique to each order and serve as identifiers. You retrieve order numbers by querying available orders in the system. You must provide the order number when you create the Checkout Session.
 
 #### Payer information
 
@@ -50,7 +48,7 @@ You can optionally include payer information during Checkout Session creation. I
 
 ### Start the Checkout Session
 
-You start a Checkout Session using the system's UI by following these steps:
+Use the system's UI to complete these steps:
 
 1. Enter the recipient's recipient identifier.
 1. Enter the order's order identifier.
