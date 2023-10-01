@@ -9,7 +9,7 @@ Before initiating a payment, you must create a Checkout Session. A Checkout Sess
 
 ### What happens when I start a Checkout Session?
 
-Starting a Checkout Session causes the system to generate a link and share it with the payer. The system invites the payer visit the link to review and confirm their payer information. The payer can make changes to their payer information if necessary.
+Starting a Checkout Session causes the system to generate a link and share it with the payer. The system invites the payer to visit the link to review and confirm their payer information. The payer can make changes to their payer information if necessary.
 
 ### What happens when the payer confirms their payment details?
 
