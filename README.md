@@ -17,7 +17,7 @@ When the payer confirms their payment details, you can proceed to create the pay
 
 ## Create a Checkout Session
 
-This section describes the steps you must complete the create a Checkout Session.
+This section describes the steps you must complete to create a Checkout Session.
 
 1. [Gather the information needed to create a Checkout Session](#gather-information-for-payment-creation).
 1. [Start the Checkout Session](#start-the-checkout-session). 
@@ -34,7 +34,7 @@ You need to provide the system with certain information during the Checkout Sess
 
 #### Recipient identifier
 
-The recipient identifier that you provide when creating a Checkout Session defines which  recipient receives the payment. A recipient identifier is unique three-letter value, such as "FWU". You retrieve recipient identifiers by searching for the recipient's name in the system. You must provide the recipient identifier during the Checkout Session creation process.
+The recipient identifier that you provide when creating a Checkout Session defines which  recipient receives the payment. A recipient identifier is a unique three-letter value, such as "FWU". You retrieve recipient identifiers by searching for the recipient's name in the system. You must provide the recipient identifier during the Checkout Session creation process.
 
 > **Note**: Recipients are also referred to as portals. Both terms refer to the same thing.
 
